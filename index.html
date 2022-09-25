@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/c97d402e3f.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="styleSheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="icon.jpg" />
+
+    <title>CarsHolic</title>
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">CarsHolic</a>
+      <nav class="navigation">
+        <a href="#aboutus">About Us</a>
+        <button class="profile">Profile</button>
+      </nav>
+    </header>
+
+    <section id="main" class="main">
+      <div class="intro">
+        <div id="loginpop" class="loginpop">
+          <button class="close">&times;</button>
+          <h2 id="signok">Sign In</h2>
+          <br />
+          <input
+            id="emailinput"
+            class="loginbox"
+            type="text"
+            name=""
+            placeholder="username@hijjawi.com"
+          />
+          <section id="emailwarning" class="warning">
+            please enter valid email!
+          </section>
+          <input
+            id="passinput"
+            class="loginbox"
+            type="passWord"
+            name=""
+            placeholder="-----PassWord-----"
+          />
+          <section id="passwordwarning" class="warning">
+            please enter valid password!
+          </section>
+          <button id="signinbtn" class="signbtn">Sign In</button>
+          <h3 id="notreg" class="notreg">Not Registered?</h3>
+          <br />
+          <button id="signupbtn" class="signbtn">Join us</button>
+          <button id="logoutbtn" class="logoutbtn">Log Out!</button>
+        </div>
+
+        <div id="signup" class="signup">
+          <button class="closesignup">&times</button>
+
+          <h2 class="signuptext" id="signok">Sign Up</h2>
+          <br />
+          <input
+            id="firstname"
+            class="loginbox"
+            type="text"
+            name=""
+            placeholder="First-Name"
+          />
+          <br />
+          <input
+            id="lastname"
+            class="loginbox"
+            type="text"
+            name=""
+            placeholder="Last-Name"
+          />
+          <br />
+          <input
+            id="username"
+            class="loginbox"
+            type="text"
+            name=""
+            placeholder="--User Name--"
+          />
+          <br />
+
+          <input
+            id="newmail"
+            class="loginbox"
+            type="email"
+            name=""
+            placeholder="---Email---"
+          />
+          <section id="newemailwarn" class="warning">email not exist</section>
+          <input
+            id="newpass"
+            class="loginbox"
+            type="password"
+            name=""
+            placeholder="---PassWord---"
+          />
+          <section id="newpasswarn" class="warning">
+            Password don't match requirments
+          </section>
+          <br />
+          <input
+            id="passreapetbox"
+            class="loginbox"
+            type="password"
+            name=""
+            placeholder="---Repeat Passwor---"
+          />
+          <p id="passreapet" class="warning">Passwords don't match</p>
+          <button class="subbtn">Submit!</button>
+          <p id="passvalid" class="warning">
+            <span id="length_pass">at least 8 characters</span>
+            <br /><span id="one_num">at least one number</span> <br /><span
+              id="one_spc_chr"
+              >least one special character</span
+            >
+            <br /><span id="lower"> least one lowercase character</span>
+            <br /><span id="upper">least one uppercase character</span>
+          </p>
+        </div>
+        <div class="slogan">
+          <h2>Hello, I'm Ahmad<br /><span>Cars Builder</span></h2>
+          <h3>Building Street Cars Since 2016</h3>
+          <!-- <button class="gallery-btn">Gallery</button> -->
+        </div>
+      </div>
+    </section>
+    <section id="aboutus" class="aboutus">
+      <div class="h1">
+        Since 2016,<br /><span
+          >Passion led us to be<br />one of the best tuners in town,<br />Japanese,
+          European and even American Muscles cars,<br />all can be tuned by
+          us</span
+        >
+      </div>
+      <button class="gallery-btn">Gallery</button>
+      <div class="swiper">
+        <button class="buttonclose">&times;</button>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img class="img" src="img11.JPG" /></div>
+          <div class="swiper-slide"><img class="img" src="IMG_0731.JPG" /></div>
+          <div class="swiper-slide"><img class="img" src="1.JPG" /></div>
+          <div class="swiper-slide"><img class="img" src="2.JPG" /></div>
+          <div class="swiper-slide"><img class="img" src="3.JPG" /></div>
+          <div class="swiper-slide"><img class="img" src="4.JPG" /></div>
+          <div class="swiper-slide"><img class="img" src="5.JPG" /></div>
+          <div class="swiper-slide"><img class="img" src="6.JPG" /></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <footer class="footer">Copyright 2022 All Rights Reserved.</footer>
+  </body>
+</html>
